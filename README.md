@@ -12,4 +12,4 @@ Template for using Svelte with Parcel (Code-Splitting and async Loading of svelt
   * in Parcel.js everything sits in dedicated configuration files, due to this fact a __svelte.config.js__ is necessary to use scss within svelte
 * for loading svelte-components async with dynamic imports this template uses [svelte-loadable](https://github.com/kaisermann/svelte-loadable)  
 
-![](doc/network.png)
+![](doc/network.gif)
