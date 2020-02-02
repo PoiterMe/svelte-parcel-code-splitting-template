@@ -8,8 +8,9 @@ Template for using Svelte with Parcel (Code-Splitting and async Loading of svelt
 
 
 **end up using this..**
-* [Parcel.js](https://parceljs.org/) is the bundler of my choice, since i tried them all for sveral purposes and i love the zero configuration philosophy
-  * in Parcel.js everything sits in dedicated configuration files, due to this fact a __svelte.config.js__ is necessary to use scss within svelte
+* [Parcel.js](https://parceljs.org/) is the bundler of my choice, since i tried them all for several purposes  
+and I simply love the zero configuration philosophy
+  * in Parcel.js everything configuration is in a dedicated configuration file, due to this fact a __svelte.config.js__ is necessary to use scss within svelte
 * for loading svelte-components async with dynamic imports this template uses [svelte-loadable](https://github.com/kaisermann/svelte-loadable)  
 
 ![](doc/network.gif)
