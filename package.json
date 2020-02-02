@@ -1,0 +1,24 @@
+{
+  "name": "svelte-parcel-code-splitting-template",
+  "version": "1.0.0",
+  "description": "Template for using Svelte with Parcel (Code-Splitting and async Loading of svelte components enabled)",
+  "main": "index.js",
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "scripts": {
+    "dev": "parcel build src/main.js",
+    "build": "parcel build src/main.js"
+  },
+  "author": "PoiterMe @ justpm.de",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/polyfill": "^7.8.3",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.5",
+    "svelte": "^3.18.1",
+    "svelte-preprocess": "^3.3.1",
+    "svelte-loadable": "^1.4.0",
+    "sass": "^1.25.0"
+  }
+}
